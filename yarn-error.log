@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\anush\.node\corepack\yarn\1.22.15\bin\yarn.js init
+
+PATH: 
+  C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC;C:\Program Files\Python 3.9.6\Scripts\;C:\Program Files\Python 3.9.6\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\anush\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\anush\AppData\Local\Programs\Python\Python39\;C:\Users\anush\AppData\Local\Microsoft\WindowsApps;C:\Users\anush\AppData\Local\atom\bin;C:\Users\anush\AppData\Local\Microsoft\WindowsApps;C:\Users\anush\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Program Files\heroku\bin;C:\Users\anush\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\anush\AppData\Roaming\npm;C:\Program Files\MySQL\MySQL Server 8.0\bin;c:\users\anush\appdata\roaming\python\python39\scripts;c:\users\anush\.local\bin;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\anush\.node\corepack\yarn\1.22.15\lib\cli.js:137145:13)
+      at Interface.emit (node:events:390:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:390:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:390:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  {
+    "name": "hardhat_iot_v2",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
