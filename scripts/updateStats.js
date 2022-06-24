@@ -15,7 +15,7 @@ const main = async (temperature, humidity, moisture) => {
     console.log("\n\nUpdated..........")
 }
 
-main(25, 15, -7)
+main(17, 40, -9)
     .then(() => process.exit(0))
     .catch((e) => {
         console.log(e)
